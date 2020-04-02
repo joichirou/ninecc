@@ -16,6 +16,6 @@ original c compiler by compilerbook
 テストコードを実行
 
 ```
-docker run --rm -v $HOME/ninecc:/ninecc -w /9cc compilerbook make test
+docker run --rm -v {path to ninecc}:/ninecc -w /ninecc compilerbook make test
 make clean
 ```
